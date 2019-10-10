@@ -9,7 +9,6 @@ def main():
     languages = [ruby, python, visual_basic]
     print(python)
 
-    languages = [ruby, python, visual_basic]
     print("The dynamically typed languages are:")
     for language in languages:
         if language.is_dynamic():

@@ -9,7 +9,7 @@ class Guitar:
         self.cost = cost
 
     def __str__(self):
-        print("{} ({}) : ${:,.2f}".format(self.name, self.year, self.cost))
+        return "{} ({}) : ${:,.2f} added.".format(self.name, self.year, self.cost)
 
     def get_age(self):
         # return "The {} is {} - {} = {}".format(self.name, CURRENT_YEAR,self.year, CURRENT_YEAR-self.year)
