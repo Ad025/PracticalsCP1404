@@ -10,7 +10,7 @@ def main():
         cost = int(input("Cost"))
         guitar_to_add = Guitar(name, year, cost)
         guitars.append(guitar_to_add)
-        print(guitar_to_add, "added.")
+        print(guitar_to_add, )
         name = input("Name:")
 
     guitars.append(Guitar("Gibson L-5 CES", 1922, 16035.40))
